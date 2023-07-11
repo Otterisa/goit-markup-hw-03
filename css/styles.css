@@ -87,4 +87,71 @@ a.active-portofolio {
   font-weight: var(--small-font-weight);
 }
 
-/* HEADER SECTION*/
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.global-header {
+  display: flex;
+}
+
+.global-header .logo {
+  margin: 24px 93px 25px 215px;
+}
+
+.global-header .header-navigation ul {
+  display: flex;
+  margin: 32px 0px;
+}
+
+.global-header .address.header-address {
+  display: flex;
+}
+.global-address {
+  display: flex;
+}
+
+.header-navigation .header-studio {
+  margin: 32px 50px 32px 93px;
+}
+
+.header-navigation .active-portofolio {
+  margin: 32px 50px;
+}
+
+.header-navigation .header-contacts {
+  margin: 32px 376px 32px 50px;
+}
+
+.global-header .global-address .mail {
+  margin: 32px 40px 32px 376px;
+}
+
+.global-header .global-address .phone {
+  margin: 32px 225px 32px 40px;
+  width: 122px;
+}
+
+.middle-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.main-pic ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 15px;
+}
