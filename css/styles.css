@@ -87,11 +87,6 @@ a.active-portofolio {
   font-weight: var(--small-font-weight);
 }
 
-.container {
-  width: 1200px;
-  margin: auto;
-}
-
 .header-container {
   display: flex;
   align-items: baseline;
@@ -136,11 +131,6 @@ a.active-portofolio {
 .global-header .global-address .phone {
   margin: 32px 225px 32px 40px;
   width: 122px;
-}
-
-.middle-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .main-buttons {
